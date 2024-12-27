@@ -1,0 +1,14 @@
+.section-div {
+  width: 50%;
+  margin: 2rem auto;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2rem;
+
+}
+.back-img {
+    background-image: url(./../../../public/v1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

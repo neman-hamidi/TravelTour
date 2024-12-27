@@ -1,0 +1,7 @@
+.latestour {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 80%;
+    margin: 3rem auto;
+    gap: 0.5rem;
+}

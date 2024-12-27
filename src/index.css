@@ -1,0 +1,85 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: vazir;
+  src: url(/public/font/Vazir-Light-FD-WOL.eot) format(embedded-opentype),
+    url(/public/font/Vazir-Light-FD-WOL.ttf) format(truetype),
+    url(/public/font/Vazir-Light-FD-WOL.woff) format(woff),
+    url(/public/font/Vazir-Light-FD-WOL.woff2) format(woff2);
+  font-display: swap;
+}
+body {
+  background: #ffe4e9;
+  color: #102a42;
+  line-height: 1.5;
+  font-size: 0.875rem;
+  font-family: vazir;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+h1 {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 1.25rem;
+}
+p {
+  font-size: 1rem;
+  text-align: justify;
+  margin-bottom: 1.25rem;
+}
+
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}

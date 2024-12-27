@@ -1,0 +1,35 @@
+.Navbar {
+  background-image: url(./../../../public/headerlogo.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.text-white:hover {
+  color: aqua !important;
+  transition: 1s linear !important;
+  -webkit-transition: 1s linear !important;
+  -moz-transition: 1s linear !important;
+  -ms-transition: 1s linear !important;
+  -o-transition: 1s linear !important;
+}
+.Navbar-search {
+  margin-top: 15rem;
+}
+.Navbar-search p {
+  color: #fff;
+  text-align: center;
+}
+
+.Container-div {
+  width: 60%;
+  margin: 2rem auto;
+}
+
+.comments-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  width: 80%;
+  margin: 3rem auto;
+}
+

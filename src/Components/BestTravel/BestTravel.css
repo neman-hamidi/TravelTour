@@ -1,0 +1,27 @@
+.besttravel {
+    background-image: url(./../../../public/f1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: none;
+    background-position: bottom;
+}
+.p-style {
+    padding:5rem 3rem 0;
+    color: white;
+    font-weight: bold;
+}
+.newImg{
+    background-image: url(./../../../public/x1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: none;
+    background-position: bottom;
+}
+.newP {
+    padding:4rem 0 1rem 7rem;
+    text-align: end;
+}
+.div-button-style {
+    text-align: end;
+    transform: translateX(69px);
+}
