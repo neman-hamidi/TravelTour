@@ -3,11 +3,7 @@ import routes from "./routes";
 
 function App() {
   const routerr = useRoutes(routes);
-  return (
-    <>
-      <div>{routerr}</div>
-    </>
-  );
+  return <>{routerr}</>;
 }
 
 export default App;

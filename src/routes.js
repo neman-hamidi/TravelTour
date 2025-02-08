@@ -1,7 +1,5 @@
-import Navitem from "./Components/Navitem/Navitem";
+import Index from "./Components/Index/Index";
 
-let routes = [
-    { path: "/", element: <Navitem /> },
-];
+let routes = [{ path: "/", element: <Index /> }];
 
-export default routes
+export default routes;

@@ -1,16 +1,21 @@
 import React from "react";
-import "./Comments.css";
-
-export default function Comments({ src, title, desc }) {
-  return (
-    <>
-      <div className="text-center">
-        <div  className="div-img-footer" >
-          <img src={src} />
-        </div>
-        <h3>{title}</h3>
-        <p className="text-center pt-2">{desc}</p>
+import { Button } from "react-bootstrap";
+import commentsText from "./Text";
+import CommentsItem from "./CommentsItem/CommentsItem";
+const Comments = () => (
+  <>
+    <div className="text-center">
+      <h3 className="text-center fs-2 fw-bold pt-5">نظر مشتریان</h3>
+      <div className="comments-div">
+        {commentsText.map((item, index) => (
+          <CommentsItem key={index} {...item} />
+        ))}
       </div>
-    </>
-  );
-}
+      <Button variant="outline-info">ادامه مطالب</Button>
+    </div>
+    <hr />
+    <hr />
+  </>
+);
+
+export default Comments;

@@ -1,3 +1,6 @@
 .col-4 p {
- text-align: center;
+  text-align: center;
+}
+.fs-base {
+  font-size: 16px;
 }
